@@ -1,0 +1,9 @@
+<h1><%= @blogger.name %><br></h1>
+<%= @blogger.bio %><br>
+<br />
+<%= @blogger.age %><br>
+<br>
+
+<% @blogger.posts.each do |p| %><br>
+<%= p.title %><br>
+<% end %><br>

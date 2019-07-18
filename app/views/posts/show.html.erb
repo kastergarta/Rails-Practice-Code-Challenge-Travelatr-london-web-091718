@@ -1,0 +1,9 @@
+<h1><%= @post.title %><br></h1>
+<br>
+<%= @post.content %><br>
+<br>
+<%= @post.likes %><br>
+<br />
+
+<%= link_to "EDIT", edit_post_path(@post)%>
+<%= link_to "RETURN TO ALL POSTS", posts_path%>

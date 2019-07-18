@@ -1,0 +1,7 @@
+<h1><%= @destination.name %><br></h1>
+<%= @destination.country %><br>
+<br />
+
+<% @destination.posts.each do |p| %><br>
+<%= link_to p.title, post_path(p) %><br>
+<% end %><br>
